@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+    color: #ebebeb;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: rgba(0, 0, 255, 0.541);
+    color: #ebebeb;
+}
+
+/* header */
+
+header {
+    background-color: rgba(0, 0, 255, 0.541);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    align-items: center;
+    border: 2px solid #ebebeb;
+}
+
+.logo-img {
+    display: flex;
+    flex-basis: 100px;
+}
+
+.logo-img img {
+    width: 100%;
+}
+
+.logo-title {
+    font-family: Matemasie;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/* main */
+
+.screen {
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 64px;
+    
+}
+
+.principal {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.747);
+    border-top: 1px solid #ebebeb;;
+}
+
+.principal-h1 {
+    font-family: Kanit;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.principal-h1 h1 {
+    border-left: 4px solid #ebebeb;
+    padding-left: 8px;
+}
+
+.principal-img {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 8px;
+}
+
+.fig {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 400px;
+}
+
+.fig img {
+    transition: box-shadow 0.5s;
+    box-shadow: 1px  1px 4px #000000;
+}
+
+.fig:hover img {
+    box-shadow: 1px 1px 4px #ebebeb;
+}
+
+.fig figcaption {
+    text-align: center;
+    font-style: italic;
+    padding-top: 4px;
+}
+
+.principal-img img {
+    width: 100%;
+}
+
+.aside-left {
+    width: 400px;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: anywhere;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.747);;
+    border-top: 1px solid #ebebeb;
+}
+
+.aside-left-h2 {
+    font-size: 30px;
+    font-family: Kanit;
+    display: flex;
+    justify-content: center;
+}
+
+.aside-left-h2 h2 {
+    border-left: 4px solid #ebebeb;
+    padding-left: 8px;
+}
+
+.aside-left-img {
+    display: flex;
+    margin-top: 16px;
+    flex: 1 1 100px;
+    flex-flow: row wrap;
+}
+
+.aside-left-img img {
+    width: 100%;
+}
+
+.menu {
+    width: 400px;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row;
+    overflow-wrap: anywhere;
+    justify-content: center;
+    background-color: rgba(0, 0, 255, 0.747);
+    border-top: 1px solid #ebebeb;
+}
+
+.nav-list {
+    display: flex;
+    flex-flow: column;
+    font-style: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nav-list a:hover {
+    color: #000000;
+    background-color: #ebebeb;
+    transform: scale(1.1);
+}
+
+.nav-list a li {
+    font-family: Kanit;
+    font-size: 50px;
+    
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+}
